@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  background: #f4f6f8;
+}
+
+header {
+  background: #2c3e50;
+
+  color: white;
+
+  padding: 16px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+
+  padding: 16px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #ecf0f1;
+
+  text-align: left;
+}
+
+.status {
+  padding: 4px 8px;
+
+  border-radius: 4px;
+
+  color: white;
+
+  font-size: 12px;
+}
+
+.status-draft {
+  background: gray;
+}
+
+.status-review {
+  background: orange;
+}
+
+.status-reviewed {
+  background: green;
+}
+
+.empty {
+  text-align: center;
+
+  padding: 20px;
+
+  color: gray;
+}
